@@ -70,6 +70,23 @@ public class Main
         {
             cargoPlaces[i] = random.nextInt(7) + 1;
             System.out.print(cargoPlaces[i] + " ");
+            if(i==1)
+            {
+                if(cargoPlaces[i-1]== cargoPlaces[i])
+                {
+                    boolean notEqual = false;
+                    while(!notEqual)
+                    {
+                        cargoPlaces[i] = random.nextInt(7) + 1;
+                        if (cargoPlaces[i - 1] != cargoPlaces[i])
+                        {
+                            notEqual = true;
+                        }
+                    }
+
+                }
+
+            }
         }
         return cargoPlaces;
     }
