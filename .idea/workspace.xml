@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5565d0e1-25b9-4ade-b9cc-fa065d1a8143" name="Changes" comment="Added condition to check if inputs are correct">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="5565d0e1-25b9-4ade-b9cc-fa065d1a8143" name="Changes" comment="Added for loop to check if users input matches with hidden box kilometers and print out result" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +64,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733391146949</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added for loop to check if users input matches with hidden box kilometers and print out result">
+      <option name="closed" value="true" />
+      <created>1733393570335</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733393570335</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +90,7 @@
     <MESSAGE value="Added randomizer and created new method to get random kilometers" />
     <MESSAGE value="Getting inputs from user" />
     <MESSAGE value="Added condition to check if inputs are correct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added condition to check if inputs are correct" />
+    <MESSAGE value="Added for loop to check if users input matches with hidden box kilometers and print out result" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added for loop to check if users input matches with hidden box kilometers and print out result" />
   </component>
 </project>

@@ -50,6 +50,14 @@ public class Main
                         ifBoxFound = true;
                         System.out.println("Congratulations! You have found all boxes!");
                     }
+                    attemptsOfGuessing++;
+                    if (attemptsOfGuessing == 5)
+                    {
+                        System.out.println("Run out of guessingBoxes! All places changed");
+                        boxPlace = places(random);
+                        attemptsOfGuessing = 0;
+
+                    }
                 }
             }
 
