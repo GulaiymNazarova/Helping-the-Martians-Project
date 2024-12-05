@@ -89,7 +89,7 @@ public class Main
             }
             if (i == 2)
             {
-                if(cargoPlaces[i-2]== cargoPlaces[i] )
+                if(cargoPlaces[i-2]== cargoPlaces[i] || cargoPlaces[i-1]== cargoPlaces[i])
                 {
                     boolean notEqual = false;
                     while(!notEqual)
