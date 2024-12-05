@@ -17,7 +17,7 @@ public class Main
             countBoxes = 0;
             for (int i = 0; i < 3; i++)
             {
-                System.out.print("Enter kilometer " + (i + 1) + ": ");
+                //System.out.print("Enter kilometer " + (i + 1) + ": ");
                 guessingBoxes[i] = sc.nextInt();
                 if (guessingBoxes[i] < 1 || guessingBoxes[i] > 7)
                 {
@@ -25,7 +25,7 @@ public class Main
                     while (!check)
                     {
                         System.out.println("Incorrect input. Range 1-7.");
-                        System.out.println("Enter kilometer " + (i + 1) + ": ");
+                        //System.out.println("Enter kilometer " + (i + 1) + ": ");
                         guessingBoxes[i] = sc.nextInt();
                         if (guessingBoxes[i] > 0 && guessingBoxes[i] < 8)
                         {
@@ -33,35 +33,35 @@ public class Main
                         }
 
                     }
-                    for (int j = 0; j < 3; j++)
-                    {
-                        for (int t = 0; t < 3; t++)
-                        {
-                            if (guessingBoxes[j] == boxPlace[t] )
-                            {
-                                countBoxes++;
-                            }
-                        }
+                 }
 
-                    }
-                    System.out.println("Number of found boxes: " + countBoxes);
-                    if (countBoxes == 3)
+            }
+            for (int j = 0; j < 3; j++)
+            {
+                for (int t = 0; t < 3; t++)
+                {
+                    if (guessingBoxes[j] == boxPlace[t] )
                     {
-                        ifBoxFound = true;
-                        System.out.println("Congratulations! You have found all boxes!");
-                    }
-                    attemptsOfGuessing++;
-                    if (attemptsOfGuessing == 5)
-                    {
-                        System.out.println("Run out of guessingBoxes! All places changed");
-                        boxPlace = places(random);
-                        attemptsOfGuessing = 0;
-
+                        countBoxes++;
                     }
                 }
             }
 
+            System.out.println("Number of found boxes: " + countBoxes);
+            if (countBoxes == 3)
+            {
+                ifBoxFound = true;
+                System.out.println("Congratulations! You have found all boxes!");
             }
+            attemptsOfGuessing++;
+            if (attemptsOfGuessing == 5)
+            {
+                System.out.println("Run out of guessingBoxes! All places changed");
+                boxPlace = places(random);
+                attemptsOfGuessing = 0;
+
+            }
+        }
     }
     public static int[] places(Random random)
     {
@@ -69,7 +69,7 @@ public class Main
         for (int i = 0; i < 3; i++)
         {
             cargoPlaces[i] = random.nextInt(7) + 1;
-            System.out.print(cargoPlaces[i] + " ");
+
             if(i==1)
             {
                 if(cargoPlaces[i-1]== cargoPlaces[i])
@@ -104,6 +104,7 @@ public class Main
                 }
 
             }
+            System.out.print(cargoPlaces[i] + " ");
         }
         return cargoPlaces;
     }
