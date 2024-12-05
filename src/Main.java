@@ -10,9 +10,23 @@ public class Main
         int[] boxPlace = places(random);
         int[] guessingBoxes = new int[3];
 
-            for (int i = 0; i < 3; i++) {
-                //System.out.print("Enter kilometer " + (i + 1) + ": ");
+            for (int i = 0; i < 3; i++)
+            {
+                System.out.print("Enter kilometer " + (i + 1) + ": ");
                 guessingBoxes[i] = sc.nextInt();
+                if (guessingBoxes[i] < 1 || guessingBoxes[i] > 7)
+                {
+                    boolean check = false;
+                    while (!check) {
+                        System.out.println("Incorrect input. Range 1-7.");
+                        System.out.println("Enter kilometer " + (i + 1) + ": ");
+                        guessingBoxes[i] = sc.nextInt();
+                        if (guessingBoxes[i] > 0 && guessingBoxes[i] < 8) {
+                            check = true;
+                        }
+
+                    }
+                }
 
             }
     }
