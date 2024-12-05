@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5565d0e1-25b9-4ade-b9cc-fa065d1a8143" name="Changes" comment="Getting inputs from user">
+    <list default="true" id="5565d0e1-25b9-4ade-b9cc-fa065d1a8143" name="Changes" comment="Added condition to check if inputs are correct">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -59,7 +59,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733390432718</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added condition to check if inputs are correct">
+      <option name="closed" value="true" />
+      <created>1733391146949</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733391146949</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +84,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added randomizer and created new method to get random kilometers" />
     <MESSAGE value="Getting inputs from user" />
-    <option name="LAST_COMMIT_MESSAGE" value="Getting inputs from user" />
+    <MESSAGE value="Added condition to check if inputs are correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added condition to check if inputs are correct" />
   </component>
 </project>
