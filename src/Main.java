@@ -87,6 +87,23 @@ public class Main
                 }
 
             }
+            if (i == 2)
+            {
+                if(cargoPlaces[i-2]== cargoPlaces[i] )
+                {
+                    boolean notEqual = false;
+                    while(!notEqual)
+                    {
+                        cargoPlaces[i] = random.nextInt(7) + 1;
+                        if(cargoPlaces[i-2]!= cargoPlaces[i] && cargoPlaces[i-1]!= cargoPlaces[i])
+                        {
+                            notEqual=true;
+                        }
+                    }
+
+                }
+
+            }
         }
         return cargoPlaces;
     }

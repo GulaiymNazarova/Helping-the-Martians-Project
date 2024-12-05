@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5565d0e1-25b9-4ade-b9cc-fa065d1a8143" name="Changes" comment="Added condition in case when attempts are more than 5" />
+    <list default="true" id="5565d0e1-25b9-4ade-b9cc-fa065d1a8143" name="Changes" comment="Added first condition if second random number is equal to first random number" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +80,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733393852724</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added first condition if second random number is equal to first random number">
+      <option name="closed" value="true" />
+      <created>1733394061066</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733394061066</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +108,7 @@
     <MESSAGE value="Added condition to check if inputs are correct" />
     <MESSAGE value="Added for loop to check if users input matches with hidden box kilometers and print out result" />
     <MESSAGE value="Added condition in case when attempts are more than 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added condition in case when attempts are more than 5" />
+    <MESSAGE value="Added first condition if second random number is equal to first random number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added first condition if second random number is equal to first random number" />
   </component>
 </project>
